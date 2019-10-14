@@ -98,6 +98,20 @@
                 </executions>
             </plugin>
 
+            <!-- Sign the file to disable modifications -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <!-- Prepare for upload to Maven Central by pointing out nexus server -->
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
