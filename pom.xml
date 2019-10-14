@@ -4,7 +4,7 @@
 
     <groupId>com.github.claremontqualitymanagement</groupId>
     <artifactId>taf.javasupport</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>TAF - Java support</name>
 
@@ -36,7 +36,7 @@
         <connection>scm:git:git://github.com/claremontqualitymanagement/TestAutomationFramework.git</connection>
         <developerConnection>scm:git://github.com/claremontqualitymanagement/TestAutomationFramework.git</developerConnection>
         <url>https://github.com/claremontqualitymanagement/TestAutomationFramework</url>
-        <tag>taf.javasupport-4.0.0</tag>
+        <tag>taf.javasupport-4.0.1</tag>
     </scm>
 
     <dependencies>
