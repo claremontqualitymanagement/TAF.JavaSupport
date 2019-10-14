@@ -36,7 +36,7 @@
         <connection>scm:git:git://github.com/claremontqualitymanagement/TestAutomationFramework.git</connection>
         <developerConnection>scm:git://github.com/claremontqualitymanagement/TestAutomationFramework.git</developerConnection>
         <url>https://github.com/claremontqualitymanagement/TestAutomationFramework</url>
-        <tag>taf.javasupport-4.0.0</tag>
+        <tag>TestAutomationFramework-4.0.0</tag>
     </scm>
 
     <dependencies>
