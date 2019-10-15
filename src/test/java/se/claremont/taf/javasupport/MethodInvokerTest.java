@@ -1,4 +1,4 @@
-package se.claremont.taf.javasupport.interaction;
+package se.claremont.taf.javasupport;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -6,6 +6,7 @@ import org.junit.Test;
 import se.claremont.taf.core.MethodInvoker;
 import se.claremont.taf.core.testcase.TestCase;
 import se.claremont.taf.core.testset.UnitTestClass;
+import se.claremont.taf.javasupport.interaction.GenericInteractionMethods;
 import se.claremont.taf.javasupport.interaction.elementidentification.By;
 import se.claremont.taf.javasupport.objectstructure.JavaGuiElement;
 

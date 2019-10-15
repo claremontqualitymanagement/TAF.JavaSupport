@@ -2,16 +2,16 @@ package se.claremont.taf.javasupport.objectstructure;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import se.claremont.taf.core.guidriverpluginstructure.PositionBasedIdentification.ElementsList;
-import se.claremont.taf.core.guidriverpluginstructure.PositionBasedIdentification.PositionBasedGuiElement;
+import se.claremont.taf.core.MethodInvoker;
 import se.claremont.taf.core.logging.LogLevel;
 import se.claremont.taf.core.support.StringManagement;
 import se.claremont.taf.core.support.SupportMethods;
 import se.claremont.taf.core.testcase.TestCase;
+import se.claremont.taf.genericguiinteraction.guidriverpluginstructure.PositionBasedIdentification.ElementsList;
+import se.claremont.taf.genericguiinteraction.guidriverpluginstructure.PositionBasedIdentification.PositionBasedGuiElement;
 import se.claremont.taf.javasupport.applicationundertest.ApplicationUnderTest;
 import se.claremont.taf.javasupport.interaction.GenericInteractionMethods;
 import se.claremont.taf.javasupport.interaction.MethodDeclarations;
-import se.claremont.taf.javasupport.interaction.MethodInvoker;
 import se.claremont.taf.javasupport.interaction.elementidentification.By;
 import se.claremont.taf.javasupport.interaction.elementidentification.SearchCondition;
 import se.claremont.taf.javasupport.interaction.elementidentification.SearchConditionType;
@@ -29,7 +29,7 @@ import java.util.Set;
  * Created by jordam on 2017-02-08.
  */
 @SuppressWarnings("WeakerAccess")
-public class JavaGuiElement implements GuiComponent, PositionBasedGuiElement, Serializable {
+public class JavaGuiElement implements GuiComponent, Serializable, PositionBasedGuiElement {
     @JsonProperty
     public By by;
     @JsonProperty

@@ -2,6 +2,7 @@ package se.claremont.taf.javasupport.interaction;
 
 //import javafx.scene.control.Spinner;
 
+import se.claremont.taf.core.MethodInvoker;
 import se.claremont.taf.core.logging.LogFolder;
 import se.claremont.taf.core.logging.LogLevel;
 import se.claremont.taf.core.logging.LogPost;

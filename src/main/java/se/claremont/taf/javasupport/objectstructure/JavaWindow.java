@@ -1,12 +1,12 @@
 package se.claremont.taf.javasupport.objectstructure;
 
+import se.claremont.taf.core.MethodInvoker;
 import se.claremont.taf.core.support.StringManagement;
 import se.claremont.taf.core.support.SupportMethods;
 import se.claremont.taf.core.testcase.TestCase;
 import se.claremont.taf.javasupport.applicationundertest.ApplicationUnderTest;
 import se.claremont.taf.javasupport.interaction.GenericInteractionMethods;
 import se.claremont.taf.javasupport.interaction.MethodDeclarations;
-import se.claremont.taf.javasupport.interaction.MethodInvoker;
 import se.claremont.taf.javasupport.interaction.WindowMapper;
 
 import javax.swing.*;

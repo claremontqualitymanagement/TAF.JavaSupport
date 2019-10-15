@@ -1,4 +1,4 @@
-package se.claremont.taf.javasupport.interaction;
+package se.claremont.taf.javasupport;
 
 import org.junit.*;
 import se.claremont.taf.core.MethodInvoker;
@@ -6,6 +6,7 @@ import se.claremont.taf.core.logging.LogLevel;
 import se.claremont.taf.core.logging.LogPost;
 import se.claremont.taf.core.testcase.TestCase;
 import se.claremont.taf.core.testset.UnitTestClass;
+import se.claremont.taf.javasupport.interaction.GenericInteractionMethods;
 import se.claremont.taf.javasupport.interaction.elementidentification.By;
 import se.claremont.taf.javasupport.objectstructure.JavaGuiElement;
 import se.claremont.taf.javasupport.objectstructure.JavaWindow;

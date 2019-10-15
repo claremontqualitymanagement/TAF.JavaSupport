@@ -1,5 +1,6 @@
 package se.claremont.taf.javasupport.applicationundertest.applicationstarters;
 
+import se.claremont.taf.core.MethodInvoker;
 import se.claremont.taf.core.logging.LogLevel;
 import se.claremont.taf.core.testcase.TestCase;
 import se.claremont.taf.javasupport.applicationundertest.applicationcontext.ApplicationContextManager;

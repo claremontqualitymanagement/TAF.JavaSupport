@@ -1,4 +1,4 @@
-package se.claremont.taf.javasupport.interaction;
+package se.claremont.taf.javasupport;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -11,6 +11,7 @@ import se.claremont.taf.core.testset.UnitTestClass;
 import se.claremont.taf.genericguiinteraction.guidriverpluginstructure.PositionBasedIdentification.ElementsList;
 import se.claremont.taf.genericguiinteraction.guidriverpluginstructure.PositionBasedIdentification.PositionBasedGuiElement;
 import se.claremont.taf.genericguiinteraction.guidriverpluginstructure.PositionBasedIdentification.PositionBasedIdentificator;
+import se.claremont.taf.javasupport.interaction.GenericInteractionMethods;
 import se.claremont.taf.javasupport.objectstructure.JavaGuiElement;
 
 import java.util.ArrayList;

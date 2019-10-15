@@ -1,10 +1,10 @@
 package se.claremont.taf.javasupport.gui.guispywindow;
 
+import se.claremont.taf.core.MethodInvoker;
 import se.claremont.taf.core.gui.guistyle.AppFont;
 import se.claremont.taf.core.gui.guistyle.TafLabel;
 import se.claremont.taf.core.gui.guistyle.TafTextField;
 import se.claremont.taf.javasupport.interaction.MethodDeclarations;
-import se.claremont.taf.javasupport.interaction.MethodInvoker;
 
 import javax.swing.*;
 import javax.swing.text.JTextComponent;

@@ -1,11 +1,11 @@
 package se.claremont.taf.javasupport.gui.guirecordingwindow.listeners;
 
+import se.claremont.taf.core.MethodInvoker;
 import se.claremont.taf.core.gui.Gui;
 import se.claremont.taf.core.gui.guistyle.TafHtmlTextPane;
 import se.claremont.taf.javasupport.gui.guirecordingwindow.RecordWindow;
 import se.claremont.taf.javasupport.gui.teststeps.JavaWriteTestStep;
 import se.claremont.taf.javasupport.interaction.MethodDeclarations;
-import se.claremont.taf.javasupport.interaction.MethodInvoker;
 import se.claremont.taf.javasupport.objectstructure.JavaGuiElement;
 
 import java.awt.*;
